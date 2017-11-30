@@ -43,7 +43,6 @@ const proxySchema = new SimpleSchema({
   url: {
     type: String,
     defaultValue: '',
-    optional: true, //XXX: does not work if remvoed => bug
     max: 2048,
   },
   user: {
